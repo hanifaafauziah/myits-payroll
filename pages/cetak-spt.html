@@ -13,6 +13,8 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.png">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -63,7 +65,7 @@
       </div>
       <div class="aside-body">
         <ul class="nav nav-aside" >
-          <li class="nav-item active pd-b-8 pd-t-8 pd-l-12 pd-r-12 rounded " style="background-color: #fff;"><a href="index.html" class="nav-link">
+          <li class="nav-item pd-b-8 pd-t-8 pd-l-12 pd-r-12 rounded " ><a href="index.html" class="nav-link">
             <img src="../assets/img/icons/Profile & Account Icon.png" class="wd-20 rounded mg-r-10"></img>
             <span>Beranda</span></a></li>
           <li class="nav-item with-sub pd-b-8 pd-t-8 pd-l-12 pd-r-12 rounded">
@@ -71,7 +73,7 @@
                 <img src="../assets/img/icons/People Icon.png" class="wd-20 rounded mg-r-10"></img> <span>Pegawai</span>
             </a>
             <ul>
-              <li class="pd-b-8 pd-t-8"><a href="biodata-pegawai.html" >Biodata Pegawai</a></li>
+              <li class="pd-b-8 pd-t-8 active " style="background-color: #fff;"><a href="biodata-pegawai.html" >Biodata Pegawai</a></li>
               <li class="pd-b-8"><a href="riwayat-keaktifan.html">Riwayat Keaktifan</a></li>
             </ul>
           </li>
@@ -82,76 +84,106 @@
             <ul>
                 <li class="pd-b-8 pd-t-8"><a href="page-profile-view.html">Rincian Pendapatan</a></li>
                 <li class="pd-b-8"><a href="page-connections.html">Bukti Potong Pajak</a></li>
-                <li class="pd-b-8"><a href="page-connections.html">SPT Tahunan</a></li>
+                <li class="pd-b-8"><a href="cetak-spt.html">SPT Tahunan</a></li>
                 <li class="pd-b-8"><a href="page-connections.html">Slip Gaji Pegawai</a></li>
             </ul>
           </li>
         </ul>
       </div>
     </aside>
+
     
-    
-    <div class="content content-components mg-t-40">
+    <div class="content content-components mg-t-50">
       <div class="container">
 
-        <div class="search-form">
-          <input type="search" class="form-control" placeholder="Search">
-          <button class="btn" type="button"><i data-feather="search"></i></button>
-        </div>
+        
 
-        <div class="row tx-14">
-          <div class="col-sm-6">
-            <div class="bg-white bd pd-20 pd-lg-30 ht-sm-300 d-flex flex-column justify-content-end">
-              <div class="mg-b-25"><i data-feather="grid" class="wd-50 ht-50 tx-gray-500"></i></div>
-              <h5 class="tx-inverse mg-b-20">Grid System</h5>
-              <p class="mg-b-20">Use Bootstrap's powerful mobile-first flexbox grid to build layouts of all shapes and sizes.</p>
-              <a href="grid.html" class="tx-medium">View Grid System <i class="icon ion-md-arrow-forward mg-l-5"></i></a>
+        <div class="layout-page">
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+            <div class="container">
+
+              <div class="row mg-b-20">
+                <div class="col-lg-12">
+                  <h3>Biodata Pegawai</h3>
+                </div>
+                <div class="col-1">
+                  <img src="../assets/img/icons/profil-avatar.png"></img>
+                </div>
+                <div class="col-4 align-self-center">
+                  <h4 class="pd-25">Tisna Sutrisna</h4>
+                </div>
+              </div>
+
+              <div class="row mg-l-4 mg-r-4 mg-b-20">
+                <!-- Total Revenue -->
+                <div class="col-lg-12 card pd-l-20">
+                    <div class="card-body">
+                      <div class="row pd-l-10 pd-r-10">
+                        <h5>Informasi Pribadi</h5>
+                      </div>
+                      <div class="row">
+                        <table class="table table-borderless mg-b-0 ">
+                          <tbody>
+                            <tr>
+                              <td width="20%" style="color: #596882">Nama</td>
+                              <td >Tisna Sutrisna</td>
+                            </tr>
+                            <tr>
+                              <td style="color: #596882">NIK</td>
+                              <td>1471096604020022</td>
+                            </tr>
+                            <tr>
+                              <td style="color: #596882">Status Kawin </td>
+                              <td>Kawin</td>
+                            </tr>
+                            <tr>
+                              <td style="color: #596882">Jumlah Anak</td>
+                              <td >2</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="row mg-l-4 mg-r-4 mg-b-20">
+                <!-- Total Revenue -->
+                <div class="col-lg-12 card pd-l-20">
+                    <div class="card-body">
+                      <div class="row pd-l-10 pd-r-10">
+                        <h5>Kepegawaian</h5>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col">
+                          <select class="form-control">
+                            <option>Default select</option>
+                          </select>
+                        </div>
+
+                          <div class="col">
+                            <select class="form-control">
+                              <option>Default select</option>
+                            </select>
+                          </div>
+                         
+                          
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+              </div>
+
+             
             </div>
-          </div><!-- col-6 -->
-          <div class="col-sm-6 mg-t-20 mg-sm-t-0">
-            <div class="bg-white bd pd-20 pd-lg-30 ht-sm-300 d-flex flex-column justify-content-end">
-              <div class="mg-b-25"><i data-feather="layers" class="wd-50 ht-50 tx-gray-500"></i></div>
-              <h5 class="tx-inverse mg-b-20">UI Elements</h5>
-              <p class="mg-b-20">UI Elements are those elements that can be found in any page with a single function and that can exist alone.</p>
-              <a href="el-accordion.html" class="tx-medium">View Elements <i class="icon ion-md-arrow-forward mg-l-5"></i></a>
-            </div>
-          </div><!-- col-6 -->
-          <div class="col-sm-6 mg-t-20 mg-sm-t-25">
-            <div class="bg-white bd pd-20 pd-lg-30 ht-sm-300 d-flex flex-column justify-content-end">
-              <div class="mg-b-25"><i data-feather="edit-3" class="wd-50 ht-50 tx-gray-500"></i></div>
-              <h5 class="tx-inverse mg-b-20">Forms</h5>
-              <p class="mg-b-20">Examples and usage guidelines for form control styles, layout options, and custom components...</p>
-              <a href="form-elements.html" class="tx-medium">View Forms <i class="icon ion-md-arrow-forward mg-l-5"></i></a>
-            </div>
-          </div><!-- col-6 -->
-          <div class="col-sm-6 mg-t-20 mg-sm-t-25">
-            <div class="bg-white bd pd-20 pd-lg-30 ht-sm-300 d-flex flex-column justify-content-end">
-              <div class="mg-b-25"><i data-feather="package" class="wd-50 ht-50 tx-gray-500"></i></div>
-              <h5 class="tx-inverse mg-b-20">Utilities</h5>
-              <p class="mg-b-20">For faster mobile-friendly and responsive development, template includes dozens of utility...</p>
-              <a href="util-animation.html" class="tx-medium">View Utilities <i class="icon ion-md-arrow-forward mg-l-5"></i></a>
-            </div>
-          </div><!-- col-6 -->
-          <div class="col-sm-6 mg-t-20 mg-sm-t-25">
-            <div class="bg-white bd pd-20 pd-lg-30 ht-sm-300 d-flex flex-column justify-content-end">
-              <div class="mg-b-25"><i data-feather="pie-chart" class="wd-50 ht-50 tx-gray-500"></i></div>
-              <h5 class="tx-inverse mg-b-20">Charts</h5>
-              <p class="mg-b-20">A graphical representation of data, in which the data is represented by symbols, such as bar chart.</p>
-              <a href="chart-flot.html" class="tx-medium">View Charts <i class="icon ion-md-arrow-forward mg-l-5"></i></a>
-            </div>
-          </div><!-- col-6 -->
-          <div class="col-sm-6 mg-t-20 mg-sm-t-25">
-            <div class="bg-white bd pd-20 pd-lg-30 ht-sm-300 d-flex flex-column justify-content-end">
-              <div class="mg-b-25"><i data-feather="map-pin" class="wd-50 ht-50 tx-gray-500"></i></div>
-              <h5 class="tx-inverse mg-b-20">Maps</h5>
-              <p class="mg-b-20">Navigate the world faster and easier using these popular map plugins to use in your projects.</p>
-              <a href="map-google.html" class="tx-medium">View Maps <i class="icon ion-md-arrow-forward mg-l-5"></i></a>
-            </div>
-          </div><!-- col-6 -->
-        </div><!-- row -->
+            <!-- / Content -->
 
         <footer class="content-footer">
-          <div>
+          <div >
             <span> Hak Cipta &copy; 2023 Institut Teknologi Sepuluh Nopember </span>
           </div>
           <div>
@@ -163,6 +195,10 @@
 
       </div><!-- container -->
     </div>
+
+    <!-- <script>
+      feather.replace()
+    </script> -->
 
     <script src="../lib/jquery/jquery.min.js"></script>
     <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>

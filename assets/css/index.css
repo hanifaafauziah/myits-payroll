@@ -26,20 +26,5 @@ body {
     font-size: 16px;
 }
 
-.navbar-menu .nav-item.with-sub {
-    position: relative; }
-    .navbar-menu .nav-item.with-sub .nav-link::after {
-      content: '';
-      width: 6px;
-      height: 6px;
-      display: inline-block;
-      transform: rotate(45deg);
-      margin-left: auto;
-      transition: all 0.2s ease-in-out; }
-      @media (prefers-reduced-motion: reduce) {
-        .navbar-menu .nav-item.with-sub .nav-link::after {
-          transition: none; } }
-      @media (min-width: 992px) {
-        .navbar-menu .nav-item.with-sub .nav-link::after {
-          margin-left: 6px; } }
+
   
